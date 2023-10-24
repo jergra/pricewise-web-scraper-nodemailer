@@ -10,6 +10,8 @@ web-scraping project from tutorial:
 
     by JavaScript Mastery
 
+built with nextjs 13, brightdata, nodemailer, mongodb, cheerio, cron 
+
 start:
     npm run dev
 
