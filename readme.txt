@@ -15,3 +15,6 @@ built with nextjs 13, brightdata, nodemailer, mongodb, cheerio, cron
 start:
     npm run dev
 
+deployed:
+    https://pricewise-webscraper-brightdata-nodemailer-jergra.vercel.app/
+
