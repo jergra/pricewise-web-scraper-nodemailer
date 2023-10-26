@@ -21,6 +21,8 @@ there are accounts connected to this project at:
     brightdata.com
     mongodb.com
 
+an outlook.com address is used to receive pricing alerts
+
 does not work because app/api/cron/route.ts line 9 'export const maxDuration = 10'
 is required by Vercel for deployment to succeed but 'export const maxDuration = 300'
 is needed for the app to work
