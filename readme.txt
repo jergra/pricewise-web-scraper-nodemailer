@@ -14,7 +14,7 @@ start:
     npm run dev
 
 deployed:
-    https://pricewise-webscraper-brightdata-nodemailer-jergra.vercel.app/
+    https://pricewise-web-scraper-nodemailer.vercel.app/
 
 there are accounts connected to this project at:
     cron-job.org
