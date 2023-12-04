@@ -16,12 +16,15 @@ start:
 deployed:
     https://pricewise-web-scraper-nodemailer.vercel.app/
 
+deployment at Netlify:
+    https://astonishing-licorice-19dbb7.netlify.app/
+
 there are accounts connected to this project at:
     cron-job.org
     brightdata.com
     mongodb.com
 
-an outlook.com address is used to receive pricing alerts
+an outlook.com address (see .env) is used to receive pricing alerts
 
 does not work because app/api/cron/route.ts line 9 'export const maxDuration = 10'
 is required by Vercel for deployment to succeed but 'export const maxDuration = 300'
