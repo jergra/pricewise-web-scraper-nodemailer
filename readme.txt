@@ -1,4 +1,4 @@
-oct 26, 2023
+Oct 26, 2023
 
 dev/pricewise
 
