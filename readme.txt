@@ -13,11 +13,13 @@ built with nextjs 13, brightdata, nodemailer, mongodb, cheerio, cron
 start:
     npm run dev
 
-deployed:
-    https://pricewise-web-scraper-nodemailer.vercel.app/
-
 deployment at Netlify:
     https://astonishing-licorice-19dbb7.netlify.app/
+
+note about deployment: deployment at Vercel does not succeed because 
+app/api/cron/route.ts line 9 'export const maxDuration = 10' is required by Vercel 
+but 'export const maxDuration = 300'is needed for the app to work
+
 
 there are accounts connected to this project at:
     cron-job.org
@@ -26,7 +28,4 @@ there are accounts connected to this project at:
 
 an outlook.com address (see .env) is used to receive pricing alerts
 
-does not work because app/api/cron/route.ts line 9 'export const maxDuration = 10'
-is required by Vercel for deployment to succeed but 'export const maxDuration = 300'
-is needed for the app to work
 
