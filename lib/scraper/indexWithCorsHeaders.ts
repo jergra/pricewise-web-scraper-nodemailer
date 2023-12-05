@@ -14,6 +14,11 @@ export async function scrapeAmazonProduct(url: string) {
   const session_id = (1000000 * Math.random()) | 0;
 
   const options = {
+    headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Request-Method': 'GET',
+        'Access-Control-Request-Headers': 'Authorization, Content-Type',
+    },
     auth: {
       username: `${username}-session-${session_id}`,
       password,
