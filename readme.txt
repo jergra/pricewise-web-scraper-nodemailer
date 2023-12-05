@@ -20,6 +20,9 @@ note about deployment: deployment at Vercel does not succeed because
 app/api/cron/route.ts line 9 'export const maxDuration = 10' is required by Vercel 
 but 'export const maxDuration = 300'is needed for the app to work
 
+The app works locally, but when trying to add an Amazon product
+using the deployed app, I get '404 not found'.
+
 
 there are accounts connected to this project at:
     cron-job.org
